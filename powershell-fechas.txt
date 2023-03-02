@@ -1,0 +1,15 @@
+creacion del documento
+(Get-ChildItem -Path .\2342fdw.exe).creationtime=$(Get-Date "17/02/2013 01:44 am")
+
+
+modificacion
+(Get-ChildItem -Path .\fewl.pdf).LastWriteTime=$(Get-Date "1/03/2023 02:44 am")
+
+
+personal
+(Get-ChildItem -Path .\mih.txt).creationtime=$(Get-Date "16/12/2013 09:39 pm");(Get-ChildItem -Path .\23rf.pdf).LastWriteTime=$(Get-Date "27/12/2023 49:47 am")
+
+
+(Get-ChildItem -Path .\mih.txt).LastAccessTime=$(Get-Date "17/02/2023 02:47 pm")
+
+
